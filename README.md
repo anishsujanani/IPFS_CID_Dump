@@ -45,6 +45,7 @@ options:
 
 ### Docker:
 
+The default `Dockerfile` will build for ARM machines. Alternatively, you can use `Dockerfile.linux-amd64` which patches GLIBC into alpine to get the kubo daemon working. 
 Build with:
 ```
 docker build -t ipfsciddump .
